@@ -1,0 +1,45 @@
+{
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:admin": "vite --config vite.config.ts --mode admin",
+    "dev:user": "vite --config vite.config.ts --mode user",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@remix-run/router": "^1.21.0",
+    "@types/react-phone-number-input": "^3.0.17",
+    "date-fns": "^2.30.0",
+    "firebase": "^10.8.0",
+    "flag-icons": "^7.2.3",
+    "framer-motion": "^11.0.8",
+    "i18next": "^23.8.2",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.0.5",
+    "react-phone-number-input": "^3.4.10",
+    "react-router": "^7.0.2",
+    "react-router-dom": "^7.0.2",
+    "socket.io-client": "^4.7.4",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "dotenv": "^16.4.7",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}

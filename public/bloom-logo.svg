@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pétales -->
+  <g transform="translate(40, 40)">
+    <!-- Pétales animés -->
+    <style>
+      @keyframes bloom {
+        0% { transform: scale(0.8); opacity: 0.8; }
+        50% { transform: scale(1.1); opacity: 1; }
+        100% { transform: scale(0.8); opacity: 0.8; }
+      }
+      .petal {
+        animation: bloom 3s infinite ease-in-out;
+      }
+      .petal:nth-child(2) { animation-delay: 0.5s; }
+      .petal:nth-child(3) { animation-delay: 1s; }
+      .petal:nth-child(4) { animation-delay: 1.5s; }
+      .petal:nth-child(5) { animation-delay: 2s; }
+    </style>
+    
+    <path class="petal" d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 C-10,20 -20,10 -20,0 C-20,-10 -10,-20 0,-20" 
+          fill="#ff6b6b" opacity="0.8" transform="rotate(0)"/>
+    <path class="petal" d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 C-10,20 -20,10 -20,0 C-20,-10 -10,-20 0,-20" 
+          fill="#ff6b6b" opacity="0.8" transform="rotate(72)"/>
+    <path class="petal" d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 C-10,20 -20,10 -20,0 C-20,-10 -10,-20 0,-20" 
+          fill="#ff6b6b" opacity="0.8" transform="rotate(144)"/>
+    <path class="petal" d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 C-10,20 -20,10 -20,0 C-20,-10 -10,-20 0,-20" 
+          fill="#ff6b6b" opacity="0.8" transform="rotate(216)"/>
+    <path class="petal" d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 C-10,20 -20,10 -20,0 C-20,-10 -10,-20 0,-20" 
+          fill="#ff6b6b" opacity="0.8" transform="rotate(288)"/>
+    
+    <!-- Centre de la fleur -->
+    <circle cx="0" cy="0" r="5" fill="#ffafd2"/>
+  </g>
+  
+  <defs>
+    <linearGradient id="bloomGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FF69B4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Texte "Bloom" -->
+  <text x="100" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="url(#bloomGradient)">
+    Bloom
+  </text>
+</svg>
