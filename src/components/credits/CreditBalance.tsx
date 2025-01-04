@@ -1,51 +1,18 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Flower, TrendingUp, Gift } from 'lucide-react';
-import { useCreditStore } from './store/creditStore';
-import { useTranslation } from 'react-i18next';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
 
-export function CreditBalance() {
-  const { t } = useTranslation();
-  const { balance, subscription } = useCreditStore();
+const CreditBalance = () => {
+  const { petals } = useSelector((state: RootState) => state.credits);
 
   return (
-    <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-lg">
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h2 className="text-2xl font-bold mb-2">{t('credits.title')}</h2>
-          <div className="flex items-center gap-2 text-3xl font-bold bg-gradient-to-r from-amber-400 to-pink-500 bg-clip-text text-transparent">
-            <Flower className="w-8 h-8" />
-            {balance}
-          </div>
-        </div>
-
-        <div className="flex gap-4">
-          <motion.button
-            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 to-pink-500 text-white rounded-xl shadow-lg"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <TrendingUp className="w-5 h-5" />
-            {t('credits.buy')}
-          </motion.button>
-          <motion.button
-            className="flex items-center gap-2 px-6 py-3 border-2 border-pink-200 text-pink-500 rounded-xl hover:bg-pink-50"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Gift className="w-5 h-5" />
-            {t('credits.earn')}
-          </motion.button>
-        </div>
-      </div>
-
-      {subscription && (
-        <div className="p-4 bg-gradient-to-r from-amber-100 to-pink-100 rounded-xl">
-          <p className="font-medium">
-            {t(`credits.packages.${subscription.type}`)}
-          </p>
-        </div>
-      )}
+    <div className="bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg shadow p-6 text-white">
+      <h2 className="text-2xl font-bold mb-2">Votre solde</h2>
+      <p className="text-4xl font-bold mb-4">{petals} pétales</p>
+      <p className="text-sm opacity-80">
+        Utilisez vos pétales pour booster votre expérience Bloom
+      </p>
     </div>
   );
-}
+};
+
+export default CreditBalance;

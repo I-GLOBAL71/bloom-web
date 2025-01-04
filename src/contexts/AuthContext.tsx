@@ -15,6 +15,7 @@ import { logger } from '../utils/logger';
 
 interface AuthContextType {
   currentUser: User | null;
+  isAuthenticated: boolean;
   loading: boolean;
   error: Error | null;
   login: () => Promise<void>;
@@ -107,7 +108,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       logger.firebase.error('retry', error);
       throw error;
     }
-  }, []);
+  }, [retryCount]);
 
   const login = useCallback(async () => {
     logger.firebase.auth('login:start');
@@ -137,6 +138,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const value = {
     currentUser,
+    isAuthenticated: !!currentUser,
     loading,
     error,
     login,

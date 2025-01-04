@@ -10,6 +10,9 @@ export interface Profile {
   photoURL?: string;
   createdAt: number;
   updatedAt: number;
+  age?: number;
+  gender?: string;
+  hobbies?: string[];
 }
 
 export function useProfile() {
@@ -28,48 +31,88 @@ export function useProfile() {
   }, []);
 
   useEffect(() => {
-    if (!currentUser) {
-      setProfile(null);
-      setLoading(false);
-      return;
-    }
+    let unsubscribe: (() => void) | undefined;
+    let isMounted = true;
 
-    setLoading(true);
-    const profileRef = doc(db, 'profiles', currentUser.uid);
-
-    // Set up real-time listener
-    const unsubscribe = onSnapshot(profileRef, 
-      (doc) => {
-        if (doc.exists()) {
-          setProfile({
-            id: doc.id,
-            ...doc.data(),
-          } as Profile);
-        } else {
+    const setupProfileListener = async () => {
+      if (!currentUser) {
+        if (isMounted) {
           setProfile(null);
+          setLoading(false);
+          setError(null);
         }
-        setLoading(false);
-      },
-      (error) => {
-        console.error('Error fetching profile:', error);
-        setError(error as Error);
+        return;
+      }
+
+      try {
+        const profileRef = doc(db, 'profiles', currentUser.uid);
+        
+        unsubscribe = onSnapshot(
+          profileRef,
+          (doc) => {
+            if (!isMounted) return;
+            
+            if (doc.exists()) {
+              const profileData = doc.data();
+              const newProfile = {
+                id: doc.id,
+                email: profileData.email,
+                displayName: profileData.displayName,
+                photoURL: processPhotoURL(profileData.photoURL),
+                createdAt: profileData.createdAt,
+                updatedAt: profileData.updatedAt,
+                age: profileData.age,
+                gender: profileData.gender,
+                hobbies: profileData.hobbies,
+              };
+              
+              setProfile(newProfile);
+            } else {
+              setProfile(null);
+            }
+            setLoading(false);
+            setError(null);
+          },
+          (error) => {
+            if (!isMounted) return;
+            console.error('Error fetching profile:', error);
+            setError(error as Error);
+            setLoading(false);
+          }
+        );
+      } catch (err) {
+        if (!isMounted) return;
+        console.error('Error setting up profile listener:', err);
+        setError(err as Error);
         setLoading(false);
       }
-    );
+    };
 
-    // Cleanup subscription
-    return () => unsubscribe();
-  }, [currentUser]);
+    setupProfileListener();
+
+    return () => {
+      isMounted = false;
+      if (unsubscribe) {
+        unsubscribe();
+      }
+    };
+  }, [currentUser, processPhotoURL]);
 
   const updateProfile = useCallback(async (data: Partial<Profile>) => {
-    if (!currentUser) throw new Error('No user authenticated');
+    if (!currentUser) {
+      throw new Error('No user authenticated');
+    }
     
     const profileRef = doc(db, 'profiles', currentUser.uid);
+    
     try {
-      await setDoc(profileRef, {
+      const updatedData = {
         ...data,
         updatedAt: Date.now(),
-      }, { merge: true });
+      };
+
+      await setDoc(profileRef, updatedData, { merge: true });
+      return true;
     } catch (error) {
       console.error('Error updating profile:', error);
       throw error;

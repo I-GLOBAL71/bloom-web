@@ -5,7 +5,8 @@ import {
   initializeFirestore, 
   enableIndexedDbPersistence,
   persistentLocalCache,
-  persistentSingleTabManager
+  persistentSingleTabManager,
+  connectFirestoreEmulator
 } from 'firebase/firestore';
 
 const firebaseConfig = {
@@ -58,6 +59,11 @@ export const db = initializeFirestore(app, {
     cacheSizeBytes: 50 * 1024 * 1024 // 50 MB
   })
 });
+
+// Connect to Firestore emulator in development
+if (import.meta.env.DEV) {
+  connectFirestoreEmulator(db, '127.0.0.1', 8080);
+}
 
 // Initialize auth state listener
 auth.onAuthStateChanged((user) => {

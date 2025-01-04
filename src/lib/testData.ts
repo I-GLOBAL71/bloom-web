@@ -99,6 +99,96 @@ const testProfiles: Partial<UserProfile>[] = [
     },
     premium: false,
     credits: 150
+  },
+  {
+    displayName: "Alexandre Leroy",
+    gender: "male",
+    birthDate: getBirthDateFromAge(30),
+    bio: "Outdoor enthusiast and adventure seeker. Let's explore the world together!",
+    photoURL: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+    photos: ["https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"],
+    interests: ["hiking", "travel", "photography"],
+    location: {
+      city: "Nice",
+      coordinates: {
+        latitude: 43.7102,
+        longitude: 7.2620
+      }
+    },
+    premium: true,
+    credits: 300
+  },
+  {
+    displayName: "Camille Rousseau",
+    gender: "female",
+    birthDate: getBirthDateFromAge(25),
+    bio: "Dancer and fitness lover. Always on the move and looking for my rhythm!",
+    photoURL: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+    photos: ["https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"],
+    interests: ["dance", "fitness", "music"],
+    location: {
+      city: "Nantes",
+      coordinates: {
+        latitude: 47.2184,
+        longitude: -1.5536
+      }
+    },
+    premium: false,
+    credits: 100
+  },
+  {
+    displayName: "Hugo Vincent",
+    gender: "male",
+    birthDate: getBirthDateFromAge(32),
+    bio: "Entrepreneur and dreamer. Building my future while enjoying the present!",
+    photoURL: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+    photos: ["https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"],
+    interests: ["business", "technology", "self-improvement"],
+    location: {
+      city: "Strasbourg",
+      coordinates: {
+        latitude: 48.5734,
+        longitude: 7.7521
+      }
+    },
+    premium: true,
+    credits: 400
+  },
+  {
+    displayName: "Léa Garnier",
+    gender: "female",
+    birthDate: getBirthDateFromAge(24),
+    bio: "Animal lover and volunteer. Looking for someone who shares my passion for helping others!",
+    photoURL: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    photos: ["https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"],
+    interests: ["animals", "volunteering", "nature"],
+    location: {
+      city: "Montpellier",
+      coordinates: {
+        latitude: 43.6108,
+        longitude: 3.8767
+      }
+    },
+    premium: false,
+    credits: 75
+  },
+  {
+    displayName: "Nicolas Lambert",
+    gender: "male",
+    birthDate: getBirthDateFromAge(29),
+    bio: "Musician and music producer. Let's create some harmony together!",
+    photoURL: "https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg",
+    photos: ["https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg"],
+    interests: ["music", "production", "concerts"],
+    location: {
+      city: "Lille",
+      coordinates: {
+        latitude: 50.6292,
+        longitude: 3.0573
+      }
+    },
+    premium: true,
+    credits: 250
   }
 ];
 

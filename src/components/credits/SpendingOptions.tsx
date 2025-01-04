@@ -1,82 +1,70 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Zap, Rewind, Star, Clock } from 'lucide-react';
-import { useSpendPetals, SPENDING_ACTIONS } from './hooks/useSpendPetals';
-import { SpendingConfirmation } from './SpendingConfirmation';
+import { useDispatch, useSelector } from 'react-redux';
+import { spendPetals } from './store/creditStore';
+import { RootState } from '../../store';
 
-const ACTION_ICONS = {
-  'super-like': Star,
-  'boost': Zap,
-  'rewind': Rewind,
-  'extend-chat': Clock
-};
+const spendingOptions = [
+  {
+    id: 1,
+    label: 'Booster mon profil',
+    cost: 50,
+    description: 'Augmentez votre visibilité pendant 24h',
+  },
+  {
+    id: 2,
+    label: 'Voir qui m\'a liké',
+    cost: 100,
+    description: 'Débloquez la liste des personnes qui vous ont liké',
+  },
+  {
+    id: 3,
+    label: 'Envoyer un super like',
+    cost: 25,
+    description: 'Attirez l\'attention avec un like spécial',
+  },
+];
 
-export function SpendingOptions() {
-  const { canAfford, spendPetalsForAction } = useSpendPetals();
-  const [selectedAction, setSelectedAction] = useState(null);
-  const [showConfirmation, setShowConfirmation] = useState(false);
+const SpendingOptions = () => {
+  const dispatch = useDispatch();
+  const { petals } = useSelector((state: RootState) => state.credits);
 
-  const handleActionClick = (action) => {
-    setSelectedAction(action);
-    setShowConfirmation(true);
-  };
-
-  const handleConfirm = async () => {
-    if (selectedAction) {
-      const success = await spendPetalsForAction(selectedAction);
-      if (success) {
-        // Ici, vous pouvez déclencher l'effet de l'action
-        // Par exemple, activer le boost, envoyer le super like, etc.
+  const handleSpend = (optionId: number) => {
+    const selectedOption = spendingOptions.find(opt => opt.id === optionId);
+    if (selectedOption) {
+      if (petals >= selectedOption.cost) {
+        dispatch(spendPetals(selectedOption.cost));
+        // TODO: Implémenter l'effet de l'option choisie
+      } else {
+        alert('Pas assez de pétales !');
       }
-      setShowConfirmation(false);
     }
   };
 
   return (
-    <>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {Object.values(SPENDING_ACTIONS).map((action) => {
-          const Icon = ACTION_ICONS[action.id];
-          const affordable = canAfford(action.cost);
-
-          return (
-            <motion.button
-              key={action.id}
-              onClick={() => handleActionClick(action)}
-              className={`
-                p-4 rounded-xl border-2 text-left
-                ${affordable
-                  ? 'border-pink-200 hover:border-pink-300 hover:bg-pink-50'
-                  : 'border-gray-200 opacity-50 cursor-not-allowed'
-                }
-              `}
-              whileHover={affordable ? { scale: 1.02 } : undefined}
-              whileTap={affordable ? { scale: 0.98 } : undefined}
+    <div className="bg-white rounded-lg shadow p-6">
+      <h2 className="text-2xl font-bold mb-4">Dépenser mes pétales</h2>
+      
+      <div className="space-y-3">
+        {spendingOptions.map(option => (
+          <div
+            key={option.id}
+            className="flex items-center justify-between p-4 border rounded-lg hover:bg-gray-50"
+          >
+            <div>
+              <h3 className="font-medium">{option.label}</h3>
+              <p className="text-sm text-gray-500">{option.description}</p>
+            </div>
+            
+            <button
+              onClick={() => handleSpend(option.id)}
+              className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg"
             >
-              <div className={`
-                w-10 h-10 rounded-full flex items-center justify-center mb-3
-                ${affordable ? 'bg-pink-100' : 'bg-gray-100'}
-              `}>
-                <Icon className={`w-5 h-5 ${affordable ? 'text-pink-500' : 'text-gray-400'}`} />
-              </div>
-              <div className="space-y-1">
-                <h3 className="font-medium">{action.name}</h3>
-                <p className="text-sm text-gray-500">{action.cost} pétales</p>
-              </div>
-            </motion.button>
-          );
-        })}
+              {option.cost} pétales
+            </button>
+          </div>
+        ))}
       </div>
-
-      {selectedAction && (
-        <SpendingConfirmation
-          isOpen={showConfirmation}
-          onClose={() => setShowConfirmation(false)}
-          onConfirm={handleConfirm}
-          action={selectedAction}
-          canAfford={canAfford(selectedAction.cost)}
-        />
-      )}
-    </>
+    </div>
   );
-}
+};
+
+export default SpendingOptions;
