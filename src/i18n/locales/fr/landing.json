@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Trouvez l'amour qui fleurit",
+    "subtitle": "Rejoignez la communauté de rencontres la plus naturelle",
+    "createAccount": "Créer un compte",
+    "learnMore": "En savoir plus",
+    "join": "Rejoignez-nous",
+    "ready": "Prêt à fleurir ?",
+    "cta": "Commencez votre voyage",
+    "googleSignIn": "Continuer avec Google",
+    "phoneSignIn": "Continuer avec le téléphone",
+    "startWithEmail": "Commencer avec l'email"
+  },
+  "stats": {
+    "users": "Utilisateurs actifs",
+    "matches": "Connexions réussies",
+    "events": "Événements organisés",
+    "gifts": "Fleurs offertes"
+  },
+  "features": {
+    "title": "Pourquoi choisir Bloomeet",
+    "subtitle": "Des fonctionnalités uniques",
+    "description": "Découvrez ce qui rend Bloomeet spécial",
+    "items": {
+      "messaging": {
+        "title": "Messagerie sécurisée",
+        "description": "Communiquez en toute confiance avec vos matchs"
+      },
+      "events": {
+        "title": "Événements locaux",
+        "description": "Rencontrez des personnes partageant vos intérêts"
+      },
+      "rewards": {
+        "title": "Système de récompenses",
+        "description": "Gagnez des pétales en participant activement"
+      },
+      "security": {
+        "title": "Sécurité renforcée",
+        "description": "Vos données sont protégées et respectées"
+      },
+      "community": {
+        "title": "Communauté bienveillante",
+        "description": "Un environnement positif et respectueux"
+      },
+      "premium": {
+        "title": "Fonctionnalités premium",
+        "description": "Accédez à des outils avancés pour plus de possibilités"
+      }
+    }
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "events": "Événements",
+    "pricing": "Tarifs",
+    "about": "À propos"
+  },
+  "footer": {
+    "categories": {
+      "company": "Entreprise",
+      "support": "Support",
+      "legal": "Mentions légales",
+      "features": "Fonctionnalités"
+    },
+    "links": {
+      "about": "À propos",
+      "careers": "Carrières",
+      "press": "Presse",
+      "blog": "Blog",
+      "help": "Centre d'aide",
+      "safety": "Centre de sécurité",
+      "guidelines": "Règles de la communauté",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "cookies": "Politique des cookies",
+      "premium": "Premium",
+      "events": "Événements",
+      "stories": "Histoires de réussite",
+      "app": "Application mobile"
+    },
+    "copyright": "© {year} Tous droits réservés"
+  }
+}

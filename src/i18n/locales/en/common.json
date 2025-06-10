@@ -1,0 +1,159 @@
+{
+  "common": {
+    "welcome": "Welcome to Bloomeet",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log Out",
+    "settings": "Settings",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "language": "Select Language",
+    "search": "Search",
+    "send": "Send",
+    "delete": "Delete",
+    "edit": "Edit",
+    "uploading": "Uploading files... Please wait.",
+    "or": "or",
+    "unnamed": "Unnamed",
+    "unspecified": "Unspecified"
+  },
+  "onboarding": {
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Complete Profile",
+    "back": "Back",
+    "continue": "Continue",
+    "addPhoto": "Add Photo",
+    "addVideo": "Add an intro video (optional, max 50MB)",
+    "clickToUploadVideo": "Click to upload video",
+    "photoAlt": "Photo {{number}}",
+    "steps": {
+      "photos": {
+        "title": "Add your photos",
+        "subtitle": "Show your best side (Optional, Max: 6 photos)"
+      },
+      "age": {
+        "title": "How old are you?",
+        "subtitle": "We want to connect you with people in your age group",
+        "placeholder": "Enter your age"
+      },
+      "location": {
+        "title": "Where are you located?",
+        "subtitle": "We'll help you meet people nearby",
+        "placeholder": "Enter your city"
+      },
+      "phone": {
+        "title": "What's your phone number?",
+        "subtitle": "We'll send you a verification code",
+        "placeholder": "Enter your phone number",
+        "continue": "Continue",
+        "verification": "Verify Phone"
+      },
+      "gender": {
+        "title": "What's your gender?",
+        "subtitle": "Help us connect you with the right people",
+        "placeholder": "Select your gender",
+        "options": {
+          "rose": {
+            "label": "Rose",
+            "description": "I identify as a woman"
+          },
+          "bumblebee": {
+            "label": "Bumblebee",
+            "description": "I identify as a man"
+          },
+          "garden": {
+            "label": "Garden",
+            "description": "I identify as non-binary"
+          }
+        }
+      },
+      "interests": {
+        "title": "What are your interests?",
+        "subtitle": "Select 3-5 interests to help us find your perfect match",
+        "selected": "{{count}}/5 selected",
+        "minimum": "Minimum 3 required",
+        "categories": {
+          "Arts & Culture": "Arts & Culture",
+          "Lifestyle": "Lifestyle",
+          "Entertainment": "Entertainment",
+          "Nature & Animals": "Nature & Animals"
+        },
+        "options": {
+          "music": "Music",
+          "art": "Art",
+          "photography": "Photography",
+          "literature": "Literature",
+          "travel": "Travel",
+          "food": "Food & Cooking",
+          "fitness": "Fitness",
+          "coffee": "Coffee",
+          "movies": "Movies",
+          "gaming": "Gaming",
+          "podcasts": "Podcasts",
+          "social": "Social Life",
+          "hiking": "Hiking",
+          "gardening": "Gardening",
+          "pets": "Pets",
+          "romance": "Romance"
+        }
+      },
+      "profession": {
+        "title": "What's your profession?",
+        "subtitle": "Tell us about your career",
+        "placeholder": "Enter your profession",
+        "orCustom": "Or enter a custom profession",
+        "categories": {
+          "Tech": "Tech",
+          "Creative": "Creative",
+          "Healthcare": "Healthcare",
+          "Business": "Business",
+          "Education": "Education",
+          "Service": "Service"
+        },
+        "options": {
+          "software-engineer": "Software Engineer",
+          "data-scientist": "Data Scientist",
+          "product-manager": "Product Manager",
+          "designer": "Designer",
+          "photographer": "Photographer",
+          "artist": "Artist",
+          "doctor": "Doctor",
+          "nurse": "Nurse",
+          "therapist": "Therapist",
+          "entrepreneur": "Entrepreneur",
+          "consultant": "Consultant",
+          "lawyer": "Lawyer",
+          "teacher": "Teacher",
+          "professor": "Professor",
+          "researcher": "Researcher",
+          "chef": "Chef",
+          "hospitality": "Hospitality",
+          "other-service": "Other Service"
+        }
+      }
+    }
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordLength": "Password must be at least 8 characters",
+    "invalidPhone": "Invalid phone number",
+    "networkError": "Network error. Please try again.",
+    "unknownError": "An unknown error occurred",
+    "maxPhotos": "Maximum 6 photos allowed",
+    "fileSize": "{{name}} is too large. Maximum size is {{size}}",
+    "videoSize": "Video must be less than 50MB",
+    "googleSignIn": "Failed to sign in with Google",
+    "phoneSignIn": "Failed to sign in with phone number",
+    "emailRequired": "Please enter your email",
+    "magicLinkFailed": "Failed to send magic link",
+    "invalidAge": "Please enter a valid age between 18 and 120",
+    "professionRequired": "Please enter your profession",
+    "maxInterests": "Maximum 5 interests allowed",
+    "minInterests": "Please select at least 3 interests"
+  }
+}

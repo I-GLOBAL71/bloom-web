@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "createAccount": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "resetPassword": "Redefinir senha",
+    "verifyEmail": "Verificar e-mail",
+    "continueWith": "Continuar com {{provider}}",
+    "phone": "Telefone",
+    "selectCountry": "Selecionar país",
+    "phonePlaceholder": "Número de telefone",
+    "emailPlaceholder": "Digite seu e-mail",
+    "backToOptions": "Voltar às opções"
+  },
+  "landing": {
+    "nav": {
+      "features": "Recursos",
+      "events": "Eventos",
+      "pricing": "Preços",
+      "about": "Sobre"
+    },
+    "footer": {
+      "categories": {
+        "company": "Empresa",
+        "support": "Suporte",
+        "legal": "Legal",
+        "features": "Recursos"
+      },
+      "links": {
+        "about": "Sobre nós",
+        "careers": "Carreiras",
+        "press": "Imprensa",
+        "blog": "Blog",
+        "help": "Central de ajuda",
+        "safety": "Central de segurança",
+        "guidelines": "Diretrizes da comunidade",
+        "terms": "Termos de serviço",
+        "privacy": "Política de privacidade",
+        "cookies": "Política de cookies",
+        "premium": "Premium",
+        "events": "Eventos",
+        "stories": "Histórias de sucesso",
+        "app": "Aplicativo móvel"
+      },
+      "copyright": "© {year} Todos os direitos reservados"
+    }
+  },
+  "common": {
+    "welcome": "Bem-vindo ao Bloom",
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "logout": "Sair",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "notifications": "Notificações",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "loading": "Carregando...",
+    "language": "Selecionar idioma",
+    "search": "Pesquisar",
+    "send": "Enviar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "uploading": "Enviando arquivos... Por favor, aguarde.",
+    "or": "ou",
+    "unnamed": "Sem nome",
+    "unspecified": "Não especificado"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "Perfil",
+      "settings": "Configurações"
+    },
+    "sections": {
+      "about": "Sobre mim",
+      "interests": "Interesses",
+      "contact": "Contato",
+      "account": "Conta"
+    },
+    "fields": {
+      "name": "Nome",
+      "bio": "Biografia",
+      "city": "Cidade",
+      "country": "País",
+      "profession": "Profissão",
+      "location": "Localização",
+      "age": "Idade",
+      "interests": "Interesses",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "status": "Status"
+    },
+    "actions": {
+      "edit": "Editar",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "changePhoto": "Alterar foto"
+    },
+    "status": {
+      "premium": "Membro Premium",
+      "free": "Membro Gratuito"
+    },
+    "info": {
+      "age": "{{age}} anos",
+      "sharedInterests": "{{count}} interesses em comum"
+    }
+  },
+  "errors": {
+    "required": "Este campo é obrigatório",
+    "invalidEmail": "Endereço de e-mail inválido",
+    "passwordLength": "A senha deve ter pelo menos 8 caracteres",
+    "invalidPhone": "Número de telefone inválido",
+    "networkError": "Erro de rede. Por favor, tente novamente.",
+    "unknownError": "Ocorreu um erro desconhecido",
+    "maxPhotos": "Máximo de 6 fotos permitidas",
+    "fileSize": "{{name}} é muito grande. Tamanho máximo: {{size}}",
+    "videoSize": "O vídeo deve ter menos de 50MB",
+    "invalidAge": "Por favor, insira uma idade válida entre 18 e 120 anos",
+    "maxInterests": "Máximo de 5 interesses permitidos",
+    "minInterests": "Por favor, selecione pelo menos 3 interesses"
+  }
+}

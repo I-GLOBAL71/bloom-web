@@ -1,0 +1,127 @@
+{
+  "profile": {
+    "settings": {
+      "notifications": {
+        "title": "Paramètres des notifications",
+        "subtitle": "Gérer vos préférences de notification",
+        "saveChanges": "Enregistrer les modifications",
+        "sections": {
+          "notifyAbout": "Me notifier pour",
+          "methods": "Méthodes de notification"
+        },
+        "options": {
+          "newMessages": "Nouveaux messages",
+          "newMatches": "Nouvelles connexions",
+          "profileLikes": "J'aime sur mon profil",
+          "upcomingEvents": "Événements à venir",
+          "emailNotifs": "Notifications par email",
+          "pushNotifs": "Notifications push"
+        }
+      },
+      "privacy": {
+        "title": "Paramètres de confidentialité",
+        "subtitle": "Gérer qui peut voir vos informations",
+        "visibility": {
+          "title": "Visibilité du profil",
+          "public": "Public",
+          "matches": "Connexions uniquement",
+          "private": "Privé",
+          "description": "Contrôlez qui peut voir votre profil"
+        },
+        "show": {
+          "title": "Informations visibles",
+          "location": "Localisation",
+          "age": "Âge",
+          "lastActive": "Dernière connexion"
+        },
+        "messaging": {
+          "title": "Messages",
+          "everyone": "Tout le monde",
+          "matches": "Connexions uniquement",
+          "none": "Personne"
+        }
+      },
+      "security": {
+        "title": "Paramètres de sécurité",
+        "subtitle": "Gérer la sécurité de votre compte",
+        "password": {
+          "title": "Mot de passe",
+          "current": "Mot de passe actuel",
+          "new": "Nouveau mot de passe",
+          "confirm": "Confirmer le mot de passe",
+          "changeButton": "Changer le mot de passe"
+        },
+        "twoFactor": {
+          "title": "Authentification à deux facteurs",
+          "description": "Ajouter une couche de sécurité supplémentaire",
+          "enable": "Activer l'authentification à deux facteurs"
+        },
+        "activity": {
+          "title": "Activité du compte",
+          "lastLogin": "Dernière connexion",
+          "passwordChanged": "Dernier changement de mot de passe"
+        }
+      },
+      "payment": {
+        "methods": {
+          "title": "Moyens de paiement",
+          "description": "Gérer vos moyens de paiement",
+          "addNew": "Ajouter un moyen de paiement",
+          "types": {
+            "card": "Carte bancaire",
+            "mobile_money": "Mobile Money"
+          },
+          "expires": "Expire le",
+          "default": "Par défaut",
+          "setDefault": "Définir par défaut"
+        },
+        "history": {
+          "title": "Historique des paiements",
+          "date": "Date",
+          "amount": "Montant",
+          "status": "Statut",
+          "statuses": {
+            "paid": "Payé"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "profile": "Profil",
+      "settings": "Paramètres"
+    },
+    "sections": {
+      "about": "À propos de moi",
+      "interests": "Centres d'intérêt",
+      "contact": "Contact",
+      "account": "Compte"
+    },
+    "fields": {
+      "name": "Nom",
+      "bio": "Bio",
+      "city": "Ville",
+      "country": "Pays",
+      "profession": "Profession",
+      "location": "Localisation",
+      "age": "Âge",
+      "interests": "Centres d'intérêt",
+      "email": "Email",
+      "phone": "Téléphone",
+      "status": "Statut"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "changePhoto": "Changer la photo"
+    },
+    "status": {
+      "premium": "Membre Premium",
+      "free": "Membre Gratuit"
+    },
+    "info": {
+      "age": "{{age}} ans",
+      "sharedInterests": "{{count}} centres d'intérêt en commun"
+    }
+  }
+}

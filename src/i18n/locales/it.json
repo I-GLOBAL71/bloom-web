@@ -1,0 +1,141 @@
+{
+  "auth": {
+    "login": "Accedi",
+    "signup": "Registrati",
+    "createAccount": "Crea account",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Password dimenticata?",
+    "alreadyHaveAccount": "Hai già un account?",
+    "resetPassword": "Reimposta password",
+    "verifyEmail": "Verifica email",
+    "continueWith": "Continua con {{provider}}",
+    "phone": "Telefono",
+    "selectCountry": "Seleziona paese",
+    "phonePlaceholder": "Numero di telefono",
+    "emailPlaceholder": "Inserisci la tua email",
+    "backToOptions": "Torna alle opzioni"
+  },
+  "landing": {
+    "nav": {
+      "features": "Funzionalità",
+      "events": "Eventi",
+      "pricing": "Prezzi",
+      "about": "Chi siamo"
+    },
+    "footer": {
+      "categories": {
+        "company": "Azienda",
+        "support": "Supporto",
+        "legal": "Legale",
+        "features": "Funzionalità"
+      },
+      "links": {
+        "about": "Chi siamo",
+        "careers": "Lavora con noi",
+        "press": "Stampa",
+        "blog": "Blog",
+        "help": "Centro assistenza",
+        "safety": "Centro sicurezza",
+        "guidelines": "Linee guida della community",
+        "terms": "Termini di servizio",
+        "privacy": "Informativa privacy",
+        "cookies": "Policy sui cookie",
+        "premium": "Premium",
+        "events": "Eventi",
+        "stories": "Storie di successo",
+        "app": "App mobile"
+      },
+      "copyright": "© {year} Tutti i diritti riservati"
+    }
+  },
+  "common": {
+    "welcome": "Benvenuto su Bloom",
+    "login": "Accedi",
+    "signup": "Registrati",
+    "logout": "Esci",
+    "settings": "Impostazioni",
+    "profile": "Profilo",
+    "notifications": "Notifiche",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "loading": "Caricamento...",
+    "language": "Seleziona lingua",
+    "search": "Cerca",
+    "send": "Invia",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "uploading": "Caricamento file in corso... Attendere prego.",
+    "or": "o",
+    "unnamed": "Senza nome",
+    "unspecified": "Non specificato"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "Profilo",
+      "settings": "Impostazioni"
+    },
+    "sections": {
+      "about": "Su di me",
+      "interests": "Interessi",
+      "contact": "Contatti",
+      "account": "Account"
+    },
+    "fields": {
+      "name": "Nome",
+      "bio": "Biografia",
+      "city": "Città",
+      "country": "Paese",
+      "profession": "Professione",
+      "location": "Posizione",
+      "age": "Età",
+      "interests": "Interessi",
+      "email": "Email",
+      "phone": "Telefono",
+      "status": "Stato"
+    },
+    "actions": {
+      "edit": "Modifica",
+      "save": "Salva",
+      "cancel": "Annulla",
+      "changePhoto": "Cambia foto"
+    },
+    "status": {
+      "premium": "Membro Premium",
+      "free": "Membro Base"
+    },
+    "info": {
+      "age": "{{age}} anni",
+      "sharedInterests": "{{count}} interessi in comune"
+    }
+  },
+  "onboarding": {
+    "next": "Avanti",
+    "previous": "Indietro",
+    "finish": "Completa profilo",
+    "continue": "Continua",
+    "back": "Indietro",
+    "steps": {
+      "photos": "Aggiungi foto",
+      "age": {
+        "title": "Quanti anni hai?",
+        "subtitle": "Vogliamo metterti in contatto con persone della tua fascia d'età",
+        "placeholder": "Inserisci la tua età"
+      }
+    }
+  },
+  "errors": {
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Indirizzo email non valido",
+    "passwordLength": "La password deve contenere almeno 8 caratteri",
+    "invalidPhone": "Numero di telefono non valido",
+    "networkError": "Errore di rete. Per favore riprova.",
+    "unknownError": "Si è verificato un errore sconosciuto",
+    "maxPhotos": "Massimo 6 foto consentite",
+    "fileSize": "{{name}} è troppo grande. Dimensione massima: {{size}}",
+    "videoSize": "Il video deve essere inferiore a 50MB",
+    "invalidAge": "Inserisci un'età valida tra 18 e 120 anni",
+    "maxInterests": "Massimo 5 interessi consentiti",
+    "minInterests": "Seleziona almeno 3 interessi"
+  }
+}

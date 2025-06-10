@@ -1,0 +1,420 @@
+{
+  "auth": {
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "createAccount": "Create Account",
+    "logout": "Log Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "alreadyHaveAccount": "Already have an account?",
+    "resetPassword": "Reset Password",
+    "verifyEmail": "Verify Email",
+    "continueWith": "Continue with {{provider}}",
+    "phone": "Phone",
+    "selectCountry": "Select country",
+    "phonePlaceholder": "Phone number",
+    "emailPlaceholder": "Enter your email",
+    "backToOptions": "Back to options"
+  },
+  "landing": {
+    "hero": {
+      "title": "Find Love That Blooms",
+      "subtitle": "Join the most natural dating community",
+      "createAccount": "Create Account",
+      "learnMore": "Learn More",
+      "join": "Join Us",
+      "ready": "Ready to Bloomeet?",
+      "cta": "Start Your Journey"
+    },
+    "stats": {
+      "users": "Active Users",
+      "matches": "Successful Matches",
+      "events": "Events Organized",
+      "gifts": "Flowers Given"
+    },
+    "features": {
+      "title": "Why Choose Bloomeet",
+      "subtitle": "Unique Features",
+      "description": "Discover what makes Bloomeet special",
+      "items": {
+        "messaging": {
+          "title": "Secure Messaging",
+          "description": "Communicate with confidence with your matches"
+        },
+        "events": {
+          "title": "Local Events",
+          "description": "Meet people who share your interests"
+        },
+        "rewards": {
+          "title": "Reward System",
+          "description": "Earn petals by participating actively"
+        },
+        "security": {
+          "title": "Enhanced Security",
+          "description": "Your data is protected and respected"
+        },
+        "community": {
+          "title": "Caring Community",
+          "description": "A positive and respectful environment"
+        },
+        "premium": {
+          "title": "Premium Features",
+          "description": "Access advanced tools for more possibilities"
+        }
+      }
+    },
+    "nav": {
+      "features": "Features",
+      "events": "Events",
+      "pricing": "Pricing",
+      "about": "About"
+    },
+    "footer": {
+      "categories": {
+        "company": "Company",
+        "support": "Support",
+        "legal": "Legal",
+        "features": "Features"
+      },
+      "links": {
+        "about": "About Us",
+        "careers": "Careers",
+        "press": "Press",
+        "blog": "Blog",
+        "help": "Help Center",
+        "safety": "Safety Center",
+        "guidelines": "Community Guidelines",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy",
+        "premium": "Premium",
+        "events": "Events",
+        "stories": "Success Stories",
+        "app": "Mobile App"
+      },
+      "copyright": "© {year} All rights reserved"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "discover": "Discover",
+      "messages": "Messages",
+      "events": "Events",
+      "profile": "Profile",
+      "contacts": "Contacts"
+    },
+    "tabs": {
+      "discover": "Discover",
+      "events": "Events",
+      "messages": "Messages",
+      "profile": "Profile"
+    },
+    "messages": {
+      "firstMessage": "First message",
+      "recentConversations": "Recent Conversations",
+      "missedMessages": "Missed Messages",
+      "allContacts": "All Contacts",
+      "lastMessageFrom": "Last message from {{name}}...",
+      "missedMessageFrom": "Missed message from {{name}}..."
+    }
+  },
+  "events": {
+    "actions": {
+      "create": "Create Event"
+    },
+    "createEvent": {
+      "intro": "Plan memorable group outings with transparent contribution management for your festive events.",
+      "title": "Create Event",
+      "actions": {
+        "create": "Create Event"
+      }
+    },
+    "tabs": {
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "myEvents": "My Events"
+    },
+    "empty": {
+      "noEvents": "No Events",
+      "joinPrompt": "Join an event to get started",
+      "createFirst": "Create your first event",
+      "noMyEvents": "You don't have any events",
+      "createPrompt": "Create your first event to get started"
+    }
+  },
+  "profile": {
+    "settings": {
+      "notifications": {
+        "title": "Notification Settings",
+        "subtitle": "Manage your notification preferences",
+        "saveChanges": "Save Changes",
+        "sections": {
+          "notifyAbout": "Notify me about",
+          "methods": "Notification Methods"
+        },
+        "options": {
+          "newMessages": "New Messages",
+          "newMatches": "New Matches",
+          "profileLikes": "Profile Likes",
+          "upcomingEvents": "Upcoming Events",
+          "emailNotifs": "Email Notifications",
+          "pushNotifs": "Push Notifications"
+        }
+      },
+      "privacy": {
+        "title": "Privacy Settings",
+        "subtitle": "Manage who can see your information",
+        "visibility": {
+          "title": "Profile Visibility",
+          "public": "Public",
+          "matches": "Matches Only",
+          "private": "Private",
+          "description": "Control who can see your profile"
+        },
+        "show": {
+          "title": "Show Information",
+          "location": "Location",
+          "age": "Age",
+          "lastActive": "Last Active"
+        },
+        "messaging": {
+          "title": "Messaging",
+          "everyone": "Everyone",
+          "matches": "Matches Only",
+          "none": "No One"
+        }
+      },
+      "security": {
+        "title": "Security Settings",
+        "subtitle": "Manage your account security",
+        "password": {
+          "title": "Password",
+          "current": "Current Password",
+          "new": "New Password",
+          "confirm": "Confirm Password",
+          "changeButton": "Change Password"
+        },
+        "twoFactor": {
+          "title": "Two-Factor Authentication",
+          "description": "Add an extra layer of security",
+          "enable": "Enable Two-Factor Authentication"
+        },
+        "activity": {
+          "title": "Account Activity",
+          "lastLogin": "Last Login",
+          "passwordChanged": "Password Last Changed"
+        }
+      },
+      "payment": {
+        "methods": {
+          "title": "Payment Methods",
+          "description": "Manage your payment methods",
+          "addNew": "Add New Payment Method",
+          "types": {
+            "card": "Credit Card",
+            "mobile_money": "Mobile Money"
+          },
+          "expires": "Expires",
+          "default": "Default",
+          "setDefault": "Set as Default"
+        },
+        "history": {
+          "title": "Payment History",
+          "date": "Date",
+          "amount": "Amount",
+          "status": "Status",
+          "statuses": {
+            "paid": "Paid"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "sections": {
+      "about": "About Me",
+      "interests": "Interests",
+      "contact": "Contact",
+      "account": "Account"
+    },
+    "fields": {
+      "name": "Name",
+      "bio": "Bio",
+      "city": "City",
+      "country": "Country",
+      "profession": "Profession",
+      "location": "Location",
+      "age": "Age",
+      "interests": "Interests",
+      "email": "Email",
+      "phone": "Phone",
+      "status": "Status"
+    },
+    "actions": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "changePhoto": "Change Photo"
+    },
+    "status": {
+      "premium": "Premium Member",
+      "free": "Free Member"
+    },
+    "info": {
+      "age": "{{age}} years old",
+      "sharedInterests": "{{count}} shared interests"
+    }
+  },
+  "common": {
+    "welcome": "Welcome to Bloomeet",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log Out",
+    "settings": "Settings",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "language": "Select Language",
+    "search": "Search",
+    "send": "Send",
+    "delete": "Delete",
+    "edit": "Edit",
+    "uploading": "Uploading files... Please wait.",
+    "or": "or",
+    "unnamed": "Unnamed",
+    "unspecified": "Unspecified"
+  },
+  "onboarding": {
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Complete Profile",
+    "back": "Back",
+    "steps": {
+      "photos": "Add your photos",
+      "age": {
+        "title": "How old are you?",
+        "subtitle": "We want to connect you with people in your age group",
+        "placeholder": "Enter your age"
+      },
+      "gender": {
+        "title": "What's your gender?",
+        "subtitle": "Help us connect you with the right people",
+        "placeholder": "Select your gender",
+        "options": {
+          "rose": {
+            "label": "Rose",
+            "description": "I identify as a woman"
+          },
+          "bumblebee": {
+            "label": "Bumblebee",
+            "description": "I identify as a man"
+          },
+          "garden": {
+            "label": "Garden",
+            "description": "I identify as non-binary"
+          }
+        }
+      },
+      "interests": {
+        "title": "What are your interests?",
+        "subtitle": "Select 3-5 interests to help us find your perfect match",
+        "selected": "{{count}}/5 selected",
+        "minimum": "Minimum 3 required",
+        "categories": {
+          "Arts & Culture": "Arts & Culture",
+          "Lifestyle": "Lifestyle",
+          "Entertainment": "Entertainment",
+          "Nature & Animals": "Nature & Animals"
+        },
+        "options": {
+          "music": "Music",
+          "art": "Art",
+          "photography": "Photography",
+          "literature": "Literature",
+          "travel": "Travel",
+          "food": "Food & Cooking",
+          "fitness": "Fitness",
+          "coffee": "Coffee",
+          "movies": "Movies",
+          "gaming": "Gaming",
+          "podcasts": "Podcasts",
+          "social": "Social Life",
+          "hiking": "Hiking",
+          "gardening": "Gardening",
+          "pets": "Pets",
+          "romance": "Romance"
+        }
+      },
+      "phone": {
+        "title": "Verify your phone number",
+        "subtitle": "We'll send you a verification code",
+        "placeholder": "Enter your phone number",
+        "continue": "Continue",
+        "verification": "Verification"
+      },
+      "profession": {
+        "title": "What's your profession?",
+        "subtitle": "Tell us about your career",
+        "placeholder": "Enter your profession",
+        "orCustom": "Or enter a custom profession",
+        "categories": {
+          "Tech": "Tech",
+          "Creative": "Creative",
+          "Healthcare": "Healthcare",
+          "Business": "Business",
+          "Education": "Education",
+          "Service": "Service"
+        },
+        "options": {
+          "software-engineer": "Software Engineer",
+          "data-scientist": "Data Scientist",
+          "product-manager": "Product Manager",
+          "designer": "Designer",
+          "photographer": "Photographer",
+          "artist": "Artist",
+          "doctor": "Doctor",
+          "nurse": "Nurse",
+          "therapist": "Therapist",
+          "entrepreneur": "Entrepreneur",
+          "consultant": "Consultant",
+          "lawyer": "Lawyer",
+          "teacher": "Teacher",
+          "professor": "Professor",
+          "researcher": "Researcher",
+          "chef": "Chef",
+          "hospitality": "Hospitality",
+          "other-service": "Other Service"
+        }
+      }
+    },
+    "photoSubtitle": "Show your best side (Optional, Max: 6 photos)",
+    "photoAlt": "Photo {{number}}",
+    "addPhoto": "Add Photo",
+    "addVideo": "Add an intro video (optional, max 50MB)",
+    "clickToUploadVideo": "Click to upload video"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordLength": "Password must be at least 8 characters",
+    "invalidPhone": "Invalid phone number",
+    "networkError": "Network error. Please try again.",
+    "unknownError": "An unknown error occurred",
+    "maxPhotos": "Maximum 6 photos allowed",
+    "fileSize": "{{name}} is too large. Maximum size is {{size}}",
+    "videoSize": "Video must be less than 50MB",
+    "googleSignIn": "Failed to sign in with Google",
+    "phoneSignIn": "Failed to sign in with phone number",
+    "emailRequired": "Please enter your email",
+    "magicLinkFailed": "Failed to send magic link",
+    "invalidAge": "Please enter a valid age between 18 and 120",
+    "professionRequired": "Please enter your profession",
+    "maxInterests": "Maximum 5 interests allowed",
+    "minInterests": "Please select at least 3 interests"
+  }
+}

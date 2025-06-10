@@ -1,0 +1,69 @@
+{
+  "petals": {
+    "modal": {
+      "title": "Buy Petals",
+      "packageLabel": "{count} petals",
+      "bonus": "+{count} bonus",
+      "price": "{amount} XAF",
+      "cancel": "Cancel",
+      "purchase": "Purchase",
+      "errors": {
+        "failed": "Payment failed",
+        "processingError": "Failed to process payment"
+      }
+    }
+  },
+  "flowers": {
+    "modal": {
+      "title": "Manage Flowers",
+      "withdraw": {
+        "title": "Withdraw Flowers",
+        "description": "Convert to money"
+      },
+      "buy": {
+        "title": "Buy Flowers",
+        "description": "With money"
+      },
+      "amount": {
+        "withdraw": "Amount to withdraw",
+        "buy": "Amount to buy",
+        "available": "Available: {count} flowers",
+        "unit": "flowers"
+      },
+      "payment": {
+        "method": "Payment Method",
+        "momo": {
+          "title": "MTN Mobile Money",
+          "description": "Instant transfer"
+        },
+        "om": {
+          "title": "Orange Money",
+          "description": "Instant transfer"
+        }
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "summary": {
+        "amount": "Amount",
+        "fees": "Fees",
+        "total": "Total",
+        "conversion": "{flowers} flowers = {amount} XAF",
+        "freeAmount": "0 XAF",
+        "withdraw": "Withdraw {count} flowers",
+        "buy": "Buy {count} flowers"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "withdraw": "Withdraw",
+        "buy": "Buy"
+      },
+      "errors": {
+        "phoneRequired": "Please enter your phone number",
+        "failed": "Transaction failed",
+        "processingError": "Failed to process transaction"
+      }
+    }
+  }
+}

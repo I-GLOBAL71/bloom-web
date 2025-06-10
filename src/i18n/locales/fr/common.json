@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "sections": {
+      "about": "À propos",
+      "interests": "Centres d'intérêt",
+      "contact": "Contact",
+      "account": "Compte"
+    },
+    "fields": {
+      "age": "Âge",
+      "location": "Localisation",
+      "profession": "Profession",
+      "interests": "Centres d'intérêt",
+      "email": "Email",
+      "phone": "Téléphone",
+      "status": "Statut"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "changePhoto": "Changer la photo"
+    },
+    "info": {
+      "age": "{{age}} ans",
+      "sharedInterests": "{{count}} centres d'intérêt en commun"
+    },
+    "tabs": {
+      "profile": "Profil",
+      "settings": "Paramètres"
+    },
+    "status": {
+      "free": "Gratuit"
+    }
+  },
+  "welcome": "Bienvenue sur Bloomeet",
+  "login": "Se connecter",
+  "signup": "S'inscrire",
+  "logout": "Se déconnecter",
+  "settings": "Paramètres",
+  "profile": "Profil",
+  "notifications": "Notifications",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "loading": "Chargement...",
+  "language": "Sélectionner la langue",
+  "search": "Rechercher",
+  "send": "Envoyer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "uploading": "Téléchargement en cours...",
+  "or": "ou",
+  "unnamed": "Sans nom",
+  "unspecified": "Non spécifié",
+  "events": {
+    "actions": {
+      "create": "Créer un événement"
+    },
+    "tabs": {
+      "upcoming": "À venir",
+      "past": "Passés",
+      "myEvents": "Mes événements"
+    },
+    "empty": {
+      "noEvents": "Aucun événement disponible",
+      "joinPrompt": "Rejoignez un événement pour commencer à rencontrer des personnes",
+      "createFirst": "Créez votre premier événement"
+    }
+  },
+  "onboarding": {
+    "continue": "Continuer",
+    "back": "Retour",
+    "next": "Suivant",
+    "finish": "Terminer",
+    "addPhoto": "Ajouter une photo",
+    "addVideo": "Ajoutez une courte vidéo de présentation",
+    "clickToUploadVideo": "Cliquez pour télécharger une vidéo",
+    "photoAlt": "Photo de profil {{number}}",
+    "steps": {
+      "photos": {
+        "title": "Ajoutez vos photos",
+        "subtitle": "Montrez votre meilleur profil (Optionnel, Max : 6 photos)"
+      },
+      "username": {
+        "title": "Choisissez votre nom d'utilisateur",
+        "subtitle": "C'est ainsi que les autres membres vous verront",
+        "placeholder": "Entrez votre nom d'utilisateur"
+      },
+      "age": {
+        "title": "Quel âge avez-vous ?",
+        "subtitle": "Nous voulons vous connecter avec des personnes de votre tranche d'âge",
+        "placeholder": "Entrez votre âge"
+      },
+      "location": {
+        "title": "Où habitez-vous ?",
+        "subtitle": "Nous vous aiderons à rencontrer des personnes près de chez vous",
+        "placeholder": "Entrez votre ville"
+      },
+      "phone": {
+        "title": "Quel est votre numéro de téléphone ?",
+        "subtitle": "Nous vous enverrons un code de vérification",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "continue": "Continuer",
+        "verification": "Vérifier le téléphone"
+      },
+      "interests": {
+        "title": "Quels sont vos centres d'intérêt ?",
+        "subtitle": "Sélectionnez 3 à 5 intérêts pour nous aider à trouver votre match idéal",
+        "selected": "{{count}}/5 sélectionnés",
+        "minimum": "Minimum 3 requis",
+        "categories": {
+          "Arts & Culture": "Arts & Culture",
+          "Lifestyle": "Style de vie",
+          "Entertainment": "Divertissement",
+          "Nature & Animals": "Nature & Animaux"
+        },
+        "options": {
+          "music": "Musique",
+          "art": "Art",
+          "photography": "Photographie",
+          "literature": "Littérature",
+          "travel": "Voyages",
+          "food": "Cuisine & Gastronomie",
+          "fitness": "Fitness",
+          "coffee": "Café",
+          "movies": "Cinéma",
+          "gaming": "Jeux vidéo",
+          "podcasts": "Podcasts",
+          "social": "Vie sociale",
+          "hiking": "Randonnée",
+          "gardening": "Jardinage",
+          "pets": "Animaux de compagnie",
+          "romance": "Romance"
+        }
+      },
+      "gender": {
+        "title": "Quel est votre genre ?",
+        "subtitle": "Aidez-nous à vous connecter avec les bonnes personnes",
+        "placeholder": "Sélectionnez votre genre",
+        "options": {
+          "rose": {
+            "label": "Rose",
+            "description": "Je m'identifie comme une femme"
+          },
+          "bumblebee": {
+            "label": "Bourdon",
+            "description": "Je m'identifie comme un homme"
+          },
+          "garden": {
+            "label": "Jardin",
+            "description": "Je m'identifie comme non-binaire"
+          }
+        }
+      },
+      "profession": {
+        "title": "Quelle est votre profession ?",
+        "subtitle": "Parlez-nous de votre carrière",
+        "placeholder": "Entrez votre profession",
+        "orCustom": "Ou entrez une profession personnalisée",
+        "categories": {
+          "Tech": "Tech",
+          "Creative": "Créatif",
+          "Healthcare": "Santé",
+          "Business": "Business",
+          "Education": "Éducation",
+          "Service": "Service"
+        },
+        "options": {
+          "software-engineer": "Ingénieur logiciel",
+          "data-scientist": "Data Scientist",
+          "product-manager": "Chef de produit",
+          "designer": "Designer",
+          "photographer": "Photographe",
+          "artist": "Artiste",
+          "doctor": "Médecin",
+          "nurse": "Infirmier(ère)",
+          "therapist": "Thérapeute",
+          "entrepreneur": "Entrepreneur",
+          "consultant": "Consultant",
+          "lawyer": "Avocat",
+          "teacher": "Enseignant",
+          "professor": "Professeur",
+          "researcher": "Chercheur",
+          "chef": "Chef cuisinier",
+          "hospitality": "Hôtellerie",
+          "other-service": "Autre service"
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "tabs": {
+      "discover": "Découvrir",
+      "events": "Événements",
+      "messages": "Messages",
+      "profile": "Profil"
+    }
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Adresse email invalide",
+    "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+    "invalidPhone": "Numéro de téléphone invalide",
+    "networkError": "Erreur réseau. Veuillez réessayer.",
+    "networkRequestFailed": "La requête réseau a échoué. Veuillez vérifier votre connexion internet.",
+    "authenticationFailed": "L'authentification a échoué. Veuillez réessayer ultérieurement.",
+    "unknownError": "Une erreur inconnue est survenue",
+    "maxPhotos": "Maximum 6 photos autorisées",
+    "fileSize": "{{name}} est trop volumineux. Taille maximale : {{size}}",
+    "videoSize": "La vidéo doit faire moins de 50Mo",
+    "invalidAge": "Veuillez entrer un âge valide entre 18 et 120 ans"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "events": {
+    "actions": {
+      "create": "Créer un événement",
+      "join": "Rejoindre",
+      "qrCode": "QR Code",
+      "share": "Partager",
+      "close": "Fermer"
+    },
+    "tabs": {
+      "upcoming": "À venir",
+      "past": "Passés",
+      "myEvents": "Mes événements"
+    },
+    "empty": {
+      "noEvents": "Aucun événement disponible",
+      "joinPrompt": "Rejoignez un événement pour commencer",
+      "createFirst": "Créez votre premier événement",
+      "noMyEvents": "Vous n'avez pas encore d'événements",
+      "createPrompt": "Créez votre premier événement pour commencer"
+    },
+    "details": {
+      "participants": "participants",
+      "qrCodeTitle": "Code QR de l'événement"
+    }
+  },
+  "createEvent": {
+    "intro": "Organisez des sorties de groupe mémorables avec une gestion transparente des contributions pour vos événements festifs.",
+    "title": "Créer un nouvel événement",
+    "close": "Fermer",
+    "eventType": {
+      "label": "Type d'événement",
+      "free": {
+        "title": "Événement Gratuit",
+        "description": "Pas de frais d'entrée requis pour les participants"
+      },
+      "paid": {
+        "title": "Événement Payant",
+        "description": "Les participants devront payer des frais d'entrée en fleurs"
+      }
+    },
+    "form": {
+      "title": {
+        "label": "Titre de l'événement"
+      },
+      "coverImage": {
+        "label": "Image de couverture",
+        "upload": "Télécharger une image"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "date": {
+        "label": "Date"
+      },
+      "time": {
+        "label": "Heure"
+      },
+      "location": {
+        "label": "Lieu"
+      },
+      "maxParticipants": {
+        "label": "Nombre maximum de participants"
+      },
+      "entryFee": {
+        "label": "Frais d'entrée (Fleurs)"
+      },
+      "balance": "Votre solde : {{balance}} fleurs"
+    },
+    "actions": {
+      "cancel": "Annuler",
+      "create": "Créer l'événement",
+      "close": "Fermer",
+      "join": "Rejoindre",
+      "qrCode": "QR Code",
+      "share": "Partager"
+    },
+    "creating": "Création en cours...",
+    "errors": {
+      "insufficientBalance": "Solde insuffisant. Requis : {{required}} fleurs, Solde actuel : {{balance}} fleurs",
+      "firstContributor": "En tant que créateur de l'événement, vous devez être le premier contributeur. Il vous manque {{missing}} fleurs sur les {{required}} fleurs requises.",
+      "recharge": "Recharger mon compte"
+    }
+  }
+}

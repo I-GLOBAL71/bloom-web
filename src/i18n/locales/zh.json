@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "login": "登录",
+    "signup": "注册",
+    "createAccount": "创建账号",
+    "email": "电子邮件",
+    "password": "密码",
+    "forgotPassword": "忘记密码？",
+    "alreadyHaveAccount": "已有账户？",
+    "resetPassword": "重置密码",
+    "verifyEmail": "验证邮箱",
+    "continueWith": "使用{{provider}}继续",
+    "phone": "电话",
+    "selectCountry": "选择国家",
+    "phonePlaceholder": "请输入电话号码",
+    "emailPlaceholder": "请输入电子邮件",
+    "backToOptions": "返回选项"
+  },
+  "landing": {
+    "nav": {
+      "features": "功能特点",
+      "events": "活动",
+      "pricing": "价格",
+      "about": "关于我们"
+    },
+    "footer": {
+      "categories": {
+        "company": "公司",
+        "support": "支持",
+        "legal": "法律",
+        "features": "功能"
+      },
+      "links": {
+        "about": "关于我们",
+        "careers": "招贤纳士",
+        "press": "新闻中心",
+        "blog": "博客",
+        "help": "帮助中心",
+        "safety": "安全中心",
+        "guidelines": "社区准则",
+        "terms": "服务条款",
+        "privacy": "隐私政策",
+        "cookies": "Cookie政策",
+        "premium": "高级会员",
+        "events": "活动",
+        "stories": "成功故事",
+        "app": "手机应用"
+      },
+      "copyright": "© {year} 版权所有"
+    }
+  },
+  "common": {
+    "welcome": "欢迎来到 Bloom",
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出",
+    "settings": "设置",
+    "profile": "个人资料",
+    "notifications": "通知",
+    "save": "保存",
+    "cancel": "取消",
+    "loading": "加载中...",
+    "language": "选择语言",
+    "search": "搜索",
+    "send": "发送",
+    "delete": "删除",
+    "edit": "编辑",
+    "uploading": "文件上传中...请稍候",
+    "or": "或",
+    "unnamed": "未命名",
+    "unspecified": "未指定"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "个人资料",
+      "settings": "设置"
+    },
+    "sections": {
+      "about": "关于我",
+      "interests": "兴趣爱好",
+      "contact": "联系方式",
+      "account": "账户"
+    },
+    "fields": {
+      "name": "姓名",
+      "bio": "个人简介",
+      "city": "城市",
+      "country": "国家",
+      "profession": "职业",
+      "location": "位置",
+      "age": "年龄",
+      "interests": "兴趣爱好",
+      "email": "电子邮件",
+      "phone": "电话",
+      "status": "状态"
+    },
+    "actions": {
+      "edit": "编辑",
+      "save": "保存",
+      "cancel": "取消",
+      "changePhoto": "更换照片"
+    },
+    "status": {
+      "premium": "高级会员",
+      "free": "普通会员"
+    },
+    "info": {
+      "age": "{{age}}岁",
+      "sharedInterests": "{{count}}个共同兴趣"
+    }
+  },
+  "errors": {
+    "required": "此字段为必填项",
+    "invalidEmail": "无效的电子邮件地址",
+    "passwordLength": "密码必须至少包含8个字符",
+    "invalidPhone": "无效的电话号码",
+    "networkError": "网络错误，请重试",
+    "unknownError": "发生未知错误",
+    "maxPhotos": "最多只能上传6张照片",
+    "fileSize": "{{name}} 太大。最大大小为 {{size}}",
+    "videoSize": "视频必须小于50MB",
+    "invalidAge": "请输入18至120岁之间的有效年龄",
+    "maxInterests": "最多只能选择5个兴趣",
+    "minInterests": "请至少选择3个兴趣"
+  }
+}

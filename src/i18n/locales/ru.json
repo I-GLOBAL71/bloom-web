@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "login": "Войти",
+    "signup": "Регистрация",
+    "createAccount": "Создать аккаунт",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль?",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "resetPassword": "Сбросить пароль",
+    "verifyEmail": "Подтвердить email",
+    "continueWith": "Продолжить с {{provider}}",
+    "phone": "Телефон",
+    "selectCountry": "Выберите страну",
+    "phonePlaceholder": "Номер телефона",
+    "emailPlaceholder": "Введите email",
+    "backToOptions": "Вернуться к опциям"
+  },
+  "landing": {
+    "nav": {
+      "features": "Возможности",
+      "events": "События",
+      "pricing": "Цены",
+      "about": "О нас"
+    },
+    "footer": {
+      "categories": {
+        "company": "Компания",
+        "support": "Поддержка",
+        "legal": "Правовая информация",
+        "features": "Возможности"
+      },
+      "links": {
+        "about": "О нас",
+        "careers": "Карьера",
+        "press": "Пресса",
+        "blog": "Блог",
+        "help": "Центр помощи",
+        "safety": "Центр безопасности",
+        "guidelines": "Правила сообщества",
+        "terms": "Условия использования",
+        "privacy": "Политика конфиденциальности",
+        "cookies": "Политика использования файлов cookie",
+        "premium": "Премиум",
+        "events": "События",
+        "stories": "Истории успеха",
+        "app": "Мобильное приложение"
+      },
+      "copyright": "© {year} Все права защищены"
+    }
+  },
+  "common": {
+    "welcome": "Добро пожаловать в Bloom",
+    "login": "Войти",
+    "signup": "Регистрация",
+    "logout": "Выйти",
+    "settings": "Настройки",
+    "profile": "Профиль",
+    "notifications": "Уведомления",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "loading": "Загрузка...",
+    "language": "Выбрать язык",
+    "search": "Поиск",
+    "send": "Отправить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "uploading": "Загрузка файлов... Пожалуйста, подождите.",
+    "or": "или",
+    "unnamed": "Без имени",
+    "unspecified": "Не указано"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "Профиль",
+      "settings": "Настройки"
+    },
+    "sections": {
+      "about": "О себе",
+      "interests": "Интересы",
+      "contact": "Контакты",
+      "account": "Аккаунт"
+    },
+    "fields": {
+      "name": "Имя",
+      "bio": "Биография",
+      "city": "Город",
+      "country": "Страна",
+      "profession": "Профессия",
+      "location": "Местоположение",
+      "age": "Возраст",
+      "interests": "Интересы",
+      "email": "Email",
+      "phone": "Телефон",
+      "status": "Статус"
+    },
+    "actions": {
+      "edit": "Редактировать",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "changePhoto": "Изменить фото"
+    },
+    "status": {
+      "premium": "Премиум-пользователь",
+      "free": "Базовый пользователь"
+    },
+    "info": {
+      "age": "{{age}} лет",
+      "sharedInterests": "{{count}} общих интересов"
+    }
+  },
+  "errors": {
+    "required": "Это поле обязательно",
+    "invalidEmail": "Неверный адрес электронной почты",
+    "passwordLength": "Пароль должен содержать не менее 8 символов",
+    "invalidPhone": "Неверный номер телефона",
+    "networkError": "Ошибка сети. Пожалуйста, попробуйте снова.",
+    "unknownError": "Произошла неизвестная ошибка",
+    "maxPhotos": "Максимум 6 фотографий",
+    "fileSize": "{{name}} слишком большой. Максимальный размер: {{size}}",
+    "videoSize": "Видео должно быть меньше 50МБ",
+    "invalidAge": "Пожалуйста, введите корректный возраст от 18 до 120 лет",
+    "maxInterests": "Максимум 5 интересов",
+    "minInterests": "Пожалуйста, выберите минимум 3 интереса"
+  }
+}

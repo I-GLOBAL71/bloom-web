@@ -1,0 +1,35 @@
+{
+  "tabs": {
+    "discover": "Découvrir",
+    "events": "Événements", 
+    "messages": "Messages",
+    "profile": "Profil"
+  },
+  "nav": {
+    "discover": "Découvrir",
+    "messages": "Messages",
+    "events": "Événements",
+    "profile": "Profil",
+    "contacts": "Demandes de contact"
+  },
+  "messages": {
+    "firstMessage": "Premier message"
+  },
+  "events": {
+    "actions": {
+      "create": "Créer un événement"
+    },
+    "tabs": {
+      "upcoming": "À venir",
+      "past": "Passés",
+      "myEvents": "Mes événements"
+    },
+    "empty": {
+      "noEvents": "Aucun événement",
+      "joinPrompt": "Rejoignez un événement pour commencer",
+      "createFirst": "Créez votre premier événement",
+      "noMyEvents": "Vous n'avez aucun événement",
+      "createPrompt": "Créez votre premier événement pour commencer"
+    }
+  }
+}

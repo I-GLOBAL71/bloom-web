@@ -1,0 +1,13 @@
+# Fichiers texte à exclure
+*.txt
+
+# Fichiers de configuration sensibles
+.env
+.npmrc
+serviceAccountKey.json
+
+# Dossiers
+dist/
+node_modules/
+.firebase/
+.bolt/

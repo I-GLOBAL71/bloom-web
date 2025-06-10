@@ -1,0 +1,45 @@
+{
+  "steps": {
+    "location": {
+      "title": "Titre de l'étape de localisation",
+      "placeholder": "Entrez votre localisation"
+    },
+    "phone": {
+      "title": "Titre de l'étape de vérification du téléphone",
+      "subtitle": "Sous-titre de l'étape de vérification du téléphone",
+      "placeholder": "Entrez votre numéro de téléphone",
+      "continue": "Continuer",
+      "verification": "Vérification"
+    },
+    "username": {
+      "title": "Choisissez votre nom d'utilisateur",
+      "subtitle": "C'est ainsi que les autres membres vous verront",
+      "placeholder": "Entrez votre nom d'utilisateur"
+    },
+    "age": {
+      "title": "Quel est votre âge ?",
+      "subtitle": "Nous avons besoin de cette information pour vous offrir une meilleure expérience",
+      "placeholder": "Entrez votre âge"
+    },
+    "gender": {
+      "title": "Comment souhaitez-vous être identifié(e) ?",
+      "subtitle": "Sélectionnez l'option qui vous correspond le mieux",
+      "options": {
+        "rose": {
+          "label": "Rose",
+          "description": "Je m'identifie comme une femme"
+        },
+        "bumblebee": {
+          "label": "Bourdon",
+          "description": "Je m'identifie comme un homme"
+        },
+        "garden": {
+          "label": "Jardin",
+          "description": "Je m'identifie comme non-binaire"
+        }
+      }
+    }
+  },
+  "continue": "Continuer",
+  "back": "Retour"
+}

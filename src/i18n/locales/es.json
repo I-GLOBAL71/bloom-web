@@ -1,0 +1,136 @@
+{
+  "auth": {
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "createAccount": "Crear cuenta",
+    "logout": "Cerrar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "createAccount": "Crear cuenta",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "resetPassword": "Restablecer contraseña",
+    "verifyEmail": "Verificar correo",
+    "continueWith": "Continuar con {{provider}}",
+    "phone": "Teléfono",
+    "selectCountry": "Seleccionar país",
+    "phonePlaceholder": "Número de teléfono",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "backToOptions": "Volver a opciones"
+  },
+  "dashboard": {
+    "nav": {
+      "discover": "Descubrir",
+      "messages": "Mensajes",
+      "events": "Eventos",
+      "profile": "Perfil"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Características",
+      "events": "Eventos",
+      "pricing": "Precios",
+      "about": "Acerca de"
+    },
+    "footer": {
+      "categories": {
+        "company": "Empresa",
+        "support": "Soporte",
+        "legal": "Legal",
+        "features": "Características"
+      },
+      "links": {
+        "about": "Sobre nosotros",
+        "careers": "Empleo",
+        "press": "Prensa",
+        "blog": "Blog",
+        "help": "Centro de ayuda",
+        "safety": "Centro de seguridad",
+        "guidelines": "Normas de la comunidad",
+        "terms": "Términos de servicio",
+        "privacy": "Política de privacidad",
+        "cookies": "Política de cookies",
+        "premium": "Premium",
+        "events": "Eventos",
+        "stories": "Historias de éxito",
+        "app": "Aplicación móvil"
+      },
+      "copyright": "© {year} Todos los derechos reservados"
+    }
+  },
+  "common": {
+    "welcome": "Bienvenido a Bloom",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "notifications": "Notificaciones",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "loading": "Cargando...",
+    "language": "Seleccionar idioma",
+    "search": "Buscar",
+    "send": "Enviar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "uploading": "Subiendo archivos... Por favor espere.",
+    "or": "o",
+    "unnamed": "Sin nombre",
+    "unspecified": "No especificado"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "Perfil",
+      "settings": "Configuración"
+    },
+    "sections": {
+      "about": "Sobre mí",
+      "interests": "Intereses",
+      "contact": "Contacto",
+      "account": "Cuenta"
+    },
+    "fields": {
+      "name": "Nombre",
+      "bio": "Biografía",
+      "city": "Ciudad",
+      "country": "País",
+      "profession": "Profesión",
+      "location": "Ubicación",
+      "age": "Edad",
+      "interests": "Intereses",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "status": "Estado"
+    },
+    "actions": {
+      "edit": "Editar",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "changePhoto": "Cambiar foto"
+    },
+    "status": {
+      "premium": "Miembro Premium",
+      "free": "Miembro Gratuito"
+    },
+    "info": {
+      "age": "{{age}} años",
+      "sharedInterests": "{{count}} intereses compartidos"
+    }
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo electrónico inválido",
+    "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+    "invalidPhone": "Número de teléfono inválido",
+    "networkError": "Error de red. Por favor, inténtalo de nuevo.",
+    "unknownError": "Ha ocurrido un error desconocido",
+    "maxPhotos": "Máximo 6 fotos permitidas",
+    "fileSize": "{{name}} es demasiado grande. Tamaño máximo: {{size}}",
+    "videoSize": "El video debe ser menor a 50MB",
+    "invalidAge": "Por favor ingresa una edad válida entre 18 y 120 años",
+    "maxInterests": "Máximo 5 intereses permitidos",
+    "minInterests": "Por favor selecciona al menos 3 intereses"
+  }
+}

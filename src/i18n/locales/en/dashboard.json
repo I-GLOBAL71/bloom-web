@@ -1,0 +1,42 @@
+{
+  "dashboard": {
+    "nav": {
+      "discover": "Discover",
+      "messages": "Messages",
+      "events": "Events",
+      "profile": "Profile",
+      "contacts": "Contacts"
+    },
+    "tabs": {
+      "discover": "Discover",
+      "events": "Events",
+      "messages": "Messages",
+      "profile": "Profile"
+    },
+    "messages": {
+      "firstMessage": "First message",
+      "recentConversations": "Recent Conversations",
+      "missedMessages": "Missed Messages",
+      "allContacts": "All Contacts",
+      "lastMessageFrom": "Last message from {{name}}...",
+      "missedMessageFrom": "Missed message from {{name}}..."
+    }
+  },
+  "events": {
+    "actions": {
+      "create": "Create Event"
+    },
+    "tabs": {
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "myEvents": "My Events"
+    },
+    "empty": {
+      "noEvents": "No Events",
+      "joinPrompt": "Join an event to get started",
+      "createFirst": "Create your first event",
+      "noMyEvents": "You don't have any events",
+      "createPrompt": "Create your first event to get started"
+    }
+  }
+}

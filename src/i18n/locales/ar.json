@@ -1,0 +1,131 @@
+{
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "التسجيل",
+    "createAccount": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "verifyEmail": "تأكيد البريد الإلكتروني",
+    "continueWith": "المتابعة باستخدام {{provider}}",
+    "phone": "الهاتف",
+    "selectCountry": "اختر الدولة",
+    "phonePlaceholder": "رقم الهاتف",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "backToOptions": "العودة إلى الخيارات"
+  },
+  "landing": {
+    "nav": {
+      "features": "المميزات",
+      "events": "الفعاليات",
+      "pricing": "الأسعار",
+      "about": "من نحن"
+    },
+    "footer": {
+      "categories": {
+        "company": "الشركة",
+        "support": "الدعم",
+        "legal": "القانونية",
+        "features": "المميزات"
+      },
+      "links": {
+        "about": "من نحن",
+        "careers": "الوظائف",
+        "press": "الصحافة",
+        "blog": "المدونة",
+        "help": "مركز المساعدة",
+        "safety": "مركز الأمان",
+        "guidelines": "إرشادات المجتمع",
+        "terms": "شروط الخدمة",
+        "privacy": "سياسة الخصوصية",
+        "cookies": "سياسة ملفات تعريف الارتباط",
+        "premium": "العضوية المميزة",
+        "events": "الفعاليات",
+        "stories": "قصص النجاح",
+        "app": "تطبيق الجوال"
+      },
+      "copyright": "© {year} جميع الحقوق محفوظة"
+    }
+  },
+  "common": {
+    "welcome": "مرحباً بك في Bloom",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "notifications": "الإشعارات",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "loading": "جاري التحميل...",
+    "language": "اختر اللغة",
+    "search": "بحث",
+    "send": "إرسال",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "uploading": "جاري رفع الملفات... يرجى الانتظار",
+    "or": "أو",
+    "unnamed": "بدون اسم",
+    "unspecified": "غير محدد"
+  },
+  "profile": {
+    "tabs": {
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات"
+    },
+    "sections": {
+      "about": "نبذة عني",
+      "interests": "الاهتمامات",
+      "contact": "معلومات الاتصال",
+      "account": "الحساب"
+    },
+    "fields": {
+      "name": "الاسم",
+      "bio": "السيرة الذاتية",
+      "city": "المدينة",
+      "country": "البلد",
+      "profession": "المهنة",
+      "location": "الموقع",
+      "age": "العمر",
+      "interests": "الاهتمامات",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "status": "الحالة"
+    },
+    "actions": {
+      "edit": "تعديل",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "changePhoto": "تغيير الصورة"
+    },
+    "status": {
+      "premium": "عضو مميز",
+      "free": "عضو مجاني"
+    },
+    "info": {
+      "age": "{{age}} سنة",
+      "sharedInterests": "{{count}} اهتمامات مشتركة"
+    }
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "بريد إلكتروني غير صالح",
+    "passwordLength": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+    "invalidPhone": "رقم هاتف غير صالح",
+    "networkError": "خطأ في الشبكة. يرجى المحاولة مرة أخرى",
+    "unknownError": "حدث خطأ غير معروف",
+    "maxPhotos": "الحد الأقصى 6 صور",
+    "fileSize": "{{name}} كبير جداً. الحجم الأقصى هو {{size}}",
+    "videoSize": "يجب أن يكون حجم الفيديو أقل من 50 ميجابايت",
+    "googleSignIn": "فشل تسجيل الدخول باستخدام جوجل",
+    "phoneSignIn": "فشل تسجيل الدخول باستخدام الهاتف",
+    "emailRequired": "الرجاء إدخال بريدك الإلكتروني",
+    "magicLinkFailed": "فشل إرسال رابط التسجيل",
+    "invalidAge": "الرجاء إدخال عمر صحيح بين 18 و 120 عاماً",
+    "professionRequired": "الرجاء إدخال مهنتك",
+    "maxInterests": "الحد الأقصى 5 اهتمامات",
+    "minInterests": "الرجاء اختيار 3 اهتمامات على الأقل"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "createEvent": {
+    "intro": "Plan memorable group outings with transparent contribution management for your festive events.",
+    "intro": "Plan memorable group outings with transparent contribution management for your festive events.",
+    "title": "Create New Event",
+    "close": "Close",
+    "eventType": {
+      "label": "Event Type",
+      "free": {
+        "title": "Free Event",
+        "description": "No entry fee required for participants"
+      },
+      "paid": {
+        "title": "Paid Event",
+        "description": "Participants will need to pay an entry fee in flowers"
+      }
+    },
+    "form": {
+      "title": {
+        "label": "Event Title"
+      },
+      "coverImage": {
+        "label": "Cover Image",
+        "upload": "Upload Image"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "date": {
+        "label": "Date"
+      },
+      "time": {
+        "label": "Time"
+      },
+      "location": {
+        "label": "Location"
+      },
+      "maxParticipants": {
+        "label": "Maximum Participants"
+      },
+      "entryFee": {
+        "label": "Entry Fee (Flowers)"
+      },
+      "balance": "Your balance: {{balance}} flowers"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "create": "Create Event",
+      "close": "Close",
+      "join": "Join",
+      "qrCode": "QR Code",
+      "share": "Share"
+    },
+    "creating": "Creating...",
+    "errors": {
+      "insufficientBalance": "Insufficient balance. Required: {{required}} flowers, Current balance: {{balance}} flowers",
+      "firstContributor": "As the event creator, you must be the first contributor. You need {{missing}} more flowers out of the required {{required}} flowers.",
+      "recharge": "Top up my account"
+    }
+  }
+}

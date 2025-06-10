@@ -1,0 +1,81 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Find Love That Blooms",
+      "subtitle": "Join the most natural dating community",
+      "createAccount": "Create Account",
+      "learnMore": "Learn More",
+      "join": "Join Us",
+      "ready": "Ready to Bloomeet?",
+      "cta": "Start Your Journey"
+    },
+    "stats": {
+      "users": "Active Users",
+      "matches": "Successful Matches",
+      "events": "Events Organized",
+      "gifts": "Flowers Given"
+    },
+    "features": {
+      "title": "Why Choose Bloomeet",
+      "subtitle": "Unique Features",
+      "description": "Discover what makes Bloomeet special",
+      "items": {
+        "messaging": {
+          "title": "Secure Messaging",
+          "description": "Communicate with confidence with your matches"
+        },
+        "events": {
+          "title": "Local Events",
+          "description": "Meet people who share your interests"
+        },
+        "rewards": {
+          "title": "Reward System",
+          "description": "Earn petals by participating actively"
+        },
+        "security": {
+          "title": "Enhanced Security",
+          "description": "Your data is protected and respected"
+        },
+        "community": {
+          "title": "Caring Community",
+          "description": "A positive and respectful environment"
+        },
+        "premium": {
+          "title": "Premium Features",
+          "description": "Access advanced tools for more possibilities"
+        }
+      }
+    },
+    "nav": {
+      "features": "Features",
+      "events": "Events",
+      "pricing": "Pricing",
+      "about": "About"
+    },
+    "footer": {
+      "categories": {
+        "company": "Company",
+        "support": "Support",
+        "legal": "Legal",
+        "features": "Features"
+      },
+      "links": {
+        "about": "About Us",
+        "careers": "Careers",
+        "press": "Press",
+        "blog": "Blog",
+        "help": "Help Center",
+        "safety": "Safety Center",
+        "guidelines": "Community Guidelines",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy",
+        "premium": "Premium",
+        "events": "Events",
+        "stories": "Success Stories",
+        "app": "Mobile App"
+      },
+      "copyright": "© {year} All rights reserved"
+    }
+  }
+}

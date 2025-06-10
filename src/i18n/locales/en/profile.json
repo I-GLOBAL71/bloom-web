@@ -1,0 +1,127 @@
+{
+  "profile": {
+    "settings": {
+      "notifications": {
+        "title": "Notification Settings",
+        "subtitle": "Manage your notification preferences",
+        "saveChanges": "Save Changes",
+        "sections": {
+          "notifyAbout": "Notify me about",
+          "methods": "Notification Methods"
+        },
+        "options": {
+          "newMessages": "New Messages",
+          "newMatches": "New Matches",
+          "profileLikes": "Profile Likes",
+          "upcomingEvents": "Upcoming Events",
+          "emailNotifs": "Email Notifications",
+          "pushNotifs": "Push Notifications"
+        }
+      },
+      "privacy": {
+        "title": "Privacy Settings",
+        "subtitle": "Manage who can see your information",
+        "visibility": {
+          "title": "Profile Visibility",
+          "public": "Public",
+          "matches": "Matches Only",
+          "private": "Private",
+          "description": "Control who can see your profile"
+        },
+        "show": {
+          "title": "Show Information",
+          "location": "Location",
+          "age": "Age",
+          "lastActive": "Last Active"
+        },
+        "messaging": {
+          "title": "Messaging",
+          "everyone": "Everyone",
+          "matches": "Matches Only",
+          "none": "No One"
+        }
+      },
+      "security": {
+        "title": "Security Settings",
+        "subtitle": "Manage your account security",
+        "password": {
+          "title": "Password",
+          "current": "Current Password",
+          "new": "New Password",
+          "confirm": "Confirm Password",
+          "changeButton": "Change Password"
+        },
+        "twoFactor": {
+          "title": "Two-Factor Authentication",
+          "description": "Add an extra layer of security",
+          "enable": "Enable Two-Factor Authentication"
+        },
+        "activity": {
+          "title": "Account Activity",
+          "lastLogin": "Last Login",
+          "passwordChanged": "Password Last Changed"
+        }
+      },
+      "payment": {
+        "methods": {
+          "title": "Payment Methods",
+          "description": "Manage your payment methods",
+          "addNew": "Add New Payment Method",
+          "types": {
+            "card": "Credit Card",
+            "mobile_money": "Mobile Money"
+          },
+          "expires": "Expires",
+          "default": "Default",
+          "setDefault": "Set as Default"
+        },
+        "history": {
+          "title": "Payment History",
+          "date": "Date",
+          "amount": "Amount",
+          "status": "Status",
+          "statuses": {
+            "paid": "Paid"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "sections": {
+      "about": "About Me",
+      "interests": "Interests",
+      "contact": "Contact",
+      "account": "Account"
+    },
+    "fields": {
+      "name": "Name",
+      "bio": "Bio",
+      "city": "City",
+      "country": "Country",
+      "profession": "Profession",
+      "location": "Location",
+      "age": "Age",
+      "interests": "Interests",
+      "email": "Email",
+      "phone": "Phone",
+      "status": "Status"
+    },
+    "actions": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "changePhoto": "Change Photo"
+    },
+    "status": {
+      "premium": "Premium Member",
+      "free": "Free Member"
+    },
+    "info": {
+      "age": "{{age}} years old",
+      "sharedInterests": "{{count}} shared interests"
+    }
+  }
+}

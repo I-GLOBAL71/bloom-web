@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bloom - Connectez-vous à votre communauté">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Chargement optimisé des polices -->
+    <link rel="stylesheet" href="/src/fonts.css">
+    
+    <!-- Styles principaux -->
+    <link rel="stylesheet" href="/src/index.css">
+    
+    <title>Bloom - Connectez-vous à votre communauté</title>
+    
+    <script>
+      // Gestion du chargement des polices
+      if ("fonts" in document) {
+        document.documentElement.classList.add('fonts-loading');
+        document.fonts.ready.then(() => {
+          document.documentElement.classList.remove('fonts-loading');
+          document.documentElement.classList.add('fonts-loaded');
+        }).catch(() => {
+          document.documentElement.classList.remove('fonts-loading');
+          document.documentElement.classList.add('fonts-failed');
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
