@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 @layer base {
@@ -74,3 +75,6 @@
     @apply transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5;
   }
 }
+=======
+@tailwind utilities;
+>>>>>>> 87fc930cd04ba868c1f63169404dd48ded0af678

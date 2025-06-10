@@ -1,0 +1,67 @@
+.PhoneInput {
+  position: relative;
+  width: 100%;
+  padding: 1rem 1rem 1rem 3.5rem;
+  border: 2px solid #FFC6C7;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.PhoneInput:focus-within {
+  border-color: #FF8BA7;
+  box-shadow: 0 0 0 1px #FF8BA7;
+}
+
+.PhoneInputCountry {
+  position: absolute;
+  left: 3.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.PhoneInputInput {
+  border: none;
+  padding-left: 3rem;
+  width: 100%;
+  outline: none;
+  background: transparent;
+}
+
+.PhoneInputCountryIcon {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.PhoneInputCountrySelect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.PhoneInputCountryIcon--border {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+/* Style pour les drapeaux */
+.fi {
+  width: 1.5em;
+  height: 1em;
+  margin-right: 0.5rem;
+  object-fit: contain;
+}
+
+/* Ajustement de la taille des drapeaux */
+.fi::before {
+  width: 1.5em;
+  height: 1em;
+}

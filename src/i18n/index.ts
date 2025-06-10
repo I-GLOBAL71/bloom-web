@@ -1,6 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+<<<<<<< HEAD
 
 // Fonction pour gérer la direction du texte
 const setDocumentDirection = (language: string) => {
@@ -116,5 +117,27 @@ const initI18n = async () => {
 
 // Initialize i18n
 initI18n();
+=======
+import { en } from './locales/en';
+import { fr } from './locales/fr';
+
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: {
+        translation: en
+      },
+      fr: {
+        translation: fr
+      }
+    },
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false
+    }
+  });
+>>>>>>> 87fc930cd04ba868c1f63169404dd48ded0af678
 
 export default i18n;
